@@ -6,6 +6,7 @@ import Dashboard from "@/pages/user/Dashboard.jsx";
 import {Login} from "@/pages/user/Login.jsx";
 import {Signup} from "@/pages/user/Signup.jsx";
 import {AllProducts} from "@/pages/product/AllProducts.jsx";
+import ProductFilter from "@/pages/product/ProductFilter.jsx";
 
 const RoutesDirectory = () => {
     return (
@@ -22,6 +23,7 @@ const RoutesDirectory = () => {
                     <Route path='login' element={<Login/>}/>
                     <Route path='signup' element={<Signup/>}/>
                     <Route path='all-products' element={<AllProducts/>}/>
+                    <Route path='product-filter' element={<ProductFilter/>}/>
                 </Route>
             </Routes>
 
